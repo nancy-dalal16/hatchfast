@@ -102,10 +102,59 @@ h4 {
 
 
 #cta {
-    background: url('/assets/img/Rectangle\ 1.png');
+    background: url('../img/Rectangle\ 1.png');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center bottom;
     z-index: 1;
     position: relative;
+}
+
+
+.ctaimg {
+    animation: updown 2s ease infinite;
+}
+
+@keyframes updown {
+    0% {
+        transform: translateY(-2%);
+    }
+
+    50% {
+        transform: translateY(0%);
+    }
+
+    100% {
+        transform: translateY(-2%);
+    }
+}
+
+@keyframes updown2 {
+    0% {
+        transform: translateY(-5%);
+    }
+
+    50% {
+        transform: translateY(0%);
+    }
+
+    100% {
+        transform: translateY(-5%);
+    }
+}
+
+.hatched-egg {
+    animation: updown2 2s ease infinite;
+}
+
+@media(max-width:680px) {
+
+    .page-section {
+        padding: 5rem 0rem;
+    }
+
+    .section-title {
+        font-size: 2.25rem;
+        line-height: 3rem;
+    }
 }

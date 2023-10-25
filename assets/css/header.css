@@ -51,7 +51,7 @@ header {
 
 
 .banner-content {
-    transform: translate(0%, 30%)
+    transform: translate(0%, 70%)
 }
 
 .banner-content h1 {
@@ -165,5 +165,10 @@ header {
         padding: 0.5rem 0.5rem;
     }
 
+    .banner-content h1 {
+        font-size: 2.25rem;
+        line-height: 3rem;
+        transform: translate(0%, -10%);
+    }
 
 }

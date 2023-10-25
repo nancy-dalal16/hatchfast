@@ -48,3 +48,53 @@
 .egg:hover {
     transform: scale(1.1);
 }
+
+#soon {
+    background: url('../img/home/Group\ 54.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding-bottom: 15rem;
+}
+
+#soon h5 {
+    text-transform: uppercase;
+    font-size: 1.8rem;
+    line-height: 60px;
+}
+
+.abtimg {
+    animation: updown 2s ease infinite;
+}
+
+@keyframes updown {
+    0% {
+        transform: translateY(-2%);
+    }
+
+    50% {
+        transform: translateY(0%);
+    }
+
+    100% {
+        transform: translateY(-2%);
+    }
+}
+
+
+
+@media(max-width:680px) {
+
+    #about {
+        padding: 20rem 0rem;
+        margin-top: -15rem;
+    }
+
+    #solution {
+        margin-top: -15rem;
+    }
+
+    #soon h5 {
+        font-size: 1.5rem;
+    }
+}
