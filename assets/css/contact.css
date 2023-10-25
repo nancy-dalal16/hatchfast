@@ -1,0 +1,62 @@
+.address-cards {
+    padding-bottom: 7rem;
+}
+
+.add-icon {
+    width: 15%;
+}
+
+.card {
+    padding: 2.5rem 4.5rem;
+    border-radius: 10px;
+    background: #FFF;
+    box-shadow: 0px 1px 10px 1px rgba(0, 0, 0, 0.10);
+    height: 16rem;
+
+}
+
+.card h4 {
+    color: var(--black);
+    font-size: 1.5rem;
+    line-height: 30px;
+    font-weight: var(--medium);
+    opacity: 1;
+}
+
+.card p {
+    opacity: 1;
+    color: var(--black)
+}
+
+.card p a {
+    color: var(--black);
+}
+
+.card p a:hover {
+    color: var(--primary);
+}
+
+#contactform {
+    background: url('../img/contact/Rectangle\ 1.png');
+    padding-bottom: 10rem;
+    margin-bottom: 3rem;
+}
+
+@media(max-width:680px) {
+    .content-contact .row {
+        flex-direction: column-reverse;
+    }
+
+    .content-contact .heading,
+    .content-contact p {
+        text-align: center;
+    }
+
+    #map {
+        margin-top: 45rem;
+    }
+
+    .card {
+        padding: 2rem;
+    }
+}
