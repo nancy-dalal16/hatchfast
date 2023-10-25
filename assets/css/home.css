@@ -68,12 +68,12 @@
 }
 
 .abtimg {
-    animation: updown 2s ease infinite;
+    animation: updown 3s ease infinite;
 }
 
 @keyframes updown {
     0% {
-        transform: translateY(-5%);
+        transform: translateY(-3%);
     }
 
     50% {
@@ -81,7 +81,7 @@
     }
 
     100% {
-        transform: translateY(-5%);
+        transform: translateY(-3%);
     }
 }
 
