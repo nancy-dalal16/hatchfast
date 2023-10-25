@@ -1,0 +1,50 @@
+#hero {
+    background: url('/assets/img/Mask\ group\ \(1\).png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center bottom;
+    height: 100vh;
+}
+
+#about {
+    background: url('/assets/img/bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.egg {
+    height: 350px;
+    width: 290px;
+    background: rgba(255, 255, 255, 0.50);
+    box-shadow: 0px 1px 20px 1px rgba(47, 43, 215, 0.10);
+    border-radius: 100% / 125% 125% 80% 80%;
+    margin: 2rem 2rem;
+    padding: 1rem 2rem;
+}
+
+.egg img {
+    width: 35%;
+}
+
+.egg p {
+    font-size: 1.5rem;
+    line-height: 2.25rem;
+    color: var(--black);
+    font-weight: var(--medium);
+}
+
+#egg .crack {
+    visibility: hidden;
+}
+
+#egg:hover .crack {
+    visibility: visible;
+    width: 30%;
+    position: absolute;
+    margin-top: -18rem;
+}
+
+.egg:hover {
+    transform: scale(1.1);
+}

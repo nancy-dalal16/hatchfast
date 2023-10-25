@@ -1,0 +1,111 @@
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ol,
+ul {
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    font-size: 16px;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'REM';
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+a,
+a:hover,
+a:focus {
+    text-decoration: none;
+}
+
+p {
+    margin-bottom: 8px;
+    line-height: 1.4rem;
+    color: #232323B2;
+    font-size: 1rem;
+}
+
+:root {
+    --primary: #FF6600;
+    --purple: #6B21B5;
+    --blue: #2F2BD7;
+    --pink: #D72BBC;
+    --black: #232323;
+    --gray: #A8B0C0;
+    --lightgray: #CCDAE7;
+    --white: #fff;
+    --extrabold: 800;
+    --bold: 700;
+    --medium: 600;
+    --semibold: 500;
+    --regular: 400;
+    --light: 300;
+}
+
+.inverse {
+    color: var(--white)
+}
+
+.page-section {
+    padding: 7rem 0px;
+}
+
+
+.btn-primary {
+    font-size: 1rem;
+    /* padding: 0.62rem 2.25rem; */
+    padding: 0.2rem 2rem;
+    border-radius: 1.8rem;
+    background: var(--primary);
+    color: var(--white);
+    transition: all 0.3s;
+    font-weight: var(--semibold);
+    display: inline-block;
+}
+
+.btn-primary:hover {
+    background: linear-gradient(90deg, #FF6600, #D72BBC, #6B21B5);
+}
+
+.btn-primary:focus {
+    outline: unset;
+    box-shadow: unset;
+    background: initial;
+    background: var(--primary);
+    color: var(--white);
+}
+
+h4 {
+    color: var(--black);
+    font-size: 1.25rem;
+    line-height: 24px;
+    font-weight: var(--semibold);
+    opacity: 0.5;
+}
+
+.section-title {
+    font-size: 3.75rem;
+    font-weight: var(--medium);
+    line-height: 4rem;
+}
+
+
+#cta {
+    background: url('/assets/img/Rectangle\ 1.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center bottom;
+    z-index: 1;
+    position: relative;
+}
