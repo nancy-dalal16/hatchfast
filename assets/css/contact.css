@@ -1,5 +1,14 @@
+.customer-girl {
+    display: flex;
+    justify-content: end;
+}
+
 .address-cards {
-    padding-bottom: 7rem;
+    padding-bottom: 5rem;
+}
+
+#addcard {
+    margin-top: -18rem;
 }
 
 .add-icon {
@@ -37,14 +46,27 @@
 }
 
 #contactform {
-    background: url('../img/contact/Rectangle\ 1.png');
+    /* background: url('../img/contact/Rectangle\ 1.png'); */
+    background: linear-gradient(180deg, #39086A -1.53%, #6B21B5 98.47%);
+    ;
     padding-bottom: 10rem;
     margin-bottom: 3rem;
+    margin-top: -1rem;
+}
+
+.hs-form__virality-link iframe {
+    display: none;
 }
 
 @media(max-width:680px) {
+
     .content-contact .row {
         flex-direction: column-reverse;
+    }
+
+    .customer-girl {
+        display: flex;
+        justify-content: center;
     }
 
     .content-contact .heading,
@@ -52,9 +74,10 @@
         text-align: center;
     }
 
-    #map {
-        margin-top: 45rem;
+    #addcard {
+        margin-top: -10rem;
     }
+
 
     .card {
         padding: 2rem;
