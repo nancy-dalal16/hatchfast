@@ -89,14 +89,6 @@
 
 @media(max-width:680px) {
 
-    #about {
-        padding: 20rem 0rem;
-        margin-top: -15rem;
-    }
-
-    #solution {
-        margin-top: -15rem;
-    }
 
     #soon h5 {
         font-size: 1.5rem;
