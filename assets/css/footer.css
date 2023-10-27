@@ -87,4 +87,8 @@ a {
     #footer .foot-contact p {
         text-align: center;
     }
+
+    .foot-contact h6 {
+        display: none;
+    }
 }
