@@ -52,7 +52,7 @@ header {
 
 .banner-content-home {
     transform: translate(0%, 70%);
-    width: 70%;
+    width: 50%;
 }
 
 .banner-content h1 {
@@ -173,7 +173,7 @@ header {
     }
 
     .banner-content-home {
-        transform: translate(0%, 20%);
+        transform: translate(0%, 50%);
         width: 77%;
     }
 
