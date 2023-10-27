@@ -171,4 +171,8 @@ header {
         transform: translate(0%, -10%);
     }
 
+    .banner-content-home {
+        transform: translate(0%, 50%)
+    }
+
 }
