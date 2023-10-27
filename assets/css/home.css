@@ -36,9 +36,10 @@
 
 #egg:hover .crack {
     visibility: visible;
-    width: 55%;
+    width: 60%;
     position: absolute;
     margin-top: -18rem;
+    margin-left: -0.5rem;
 }
 
 #egg:hover .egg-desc p {
